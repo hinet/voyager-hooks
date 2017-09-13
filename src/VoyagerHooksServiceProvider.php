@@ -1,10 +1,10 @@
 <?php
 
-namespace Larapack\VoyagerHooks;
+namespace Hinet\VoyagerHooks;
 
 use Illuminate\Events\Dispatcher;
 use Illuminate\Support\ServiceProvider;
-use Larapack\Hooks\HooksServiceProvider;
+use Hinet\Hooks\HooksServiceProvider;
 use Hinet\Voyager\Models\Menu;
 use Hinet\Voyager\Models\MenuItem;
 use Hinet\Voyager\Models\Permission;
@@ -46,7 +46,7 @@ class VoyagerHooksServiceProvider extends ServiceProvider
 
     public function addHookRoute($router)
     {
-        $namespacePrefix = '\\Larapack\\VoyagerHooks\\Controllers\\';
+        $namespacePrefix = '\\Hinet\\VoyagerHooks\\Controllers\\';
 
         $router->get('hooks', ['uses' => $namespacePrefix.'HooksController@index', 'as' => 'hooks']);
         $router->get('hooks/{name}/enable', ['uses' => $namespacePrefix.'HooksController@enable', 'as' => 'hooks.enable']);

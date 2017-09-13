@@ -1,11 +1,11 @@
 <?php
 
-namespace Larapack\VoyagerHooks\Controllers;
+namespace Hinet\VoyagerHooks\Controllers;
 
 use Carbon\Carbon;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
-use Larapack\Hooks\Hooks;
+use Hinet\Hooks\Hooks;
 
 class HooksController extends Controller
 {

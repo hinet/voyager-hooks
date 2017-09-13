@@ -1,12 +1,12 @@
 {
-    "name": "larapack/voyager-hooks",
+    "name": "hinet/voyager-hooks",
     "description": "Hooks integrated in Voyager",
     "keywords": ["laravel", "hooks", "voyager"],
     "license": "MIT",
     "homepage": "https://larapack.io/",
     "support": {
-        "issues": "https://github.com/larapack/voyager-hooks/issues",
-        "source": "https://github.com/larapack/voyager-hooks"
+        "issues": "https://github.com/hinet/voyager-hooks/issues",
+        "source": "https://github.com/hinet/voyager-hooks"
     },
     "authors": [
         {
@@ -22,12 +22,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Larapack\\VoyagerHooks\\": "src/"
+            "Hinet\\VoyagerHooks\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Larapack\\VoyagerHooks\\Tests\\": "tests/"
+            "Hinet\\VoyagerHooks\\Tests\\": "tests/"
         }
     }
 }
