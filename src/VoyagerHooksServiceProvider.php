@@ -5,10 +5,10 @@ namespace Larapack\VoyagerHooks;
 use Illuminate\Events\Dispatcher;
 use Illuminate\Support\ServiceProvider;
 use Larapack\Hooks\HooksServiceProvider;
-use TCG\Voyager\Models\Menu;
-use TCG\Voyager\Models\MenuItem;
-use TCG\Voyager\Models\Permission;
-use TCG\Voyager\Models\Role;
+use Hinet\Voyager\Models\Menu;
+use Hinet\Voyager\Models\MenuItem;
+use Hinet\Voyager\Models\Permission;
+use Hinet\Voyager\Models\Role;
 
 class VoyagerHooksServiceProvider extends ServiceProvider
 {
